@@ -1,0 +1,29 @@
+{
+  "name": "uno",
+  "version": "1.0.0",
+  "description": "Uno card game",
+  "repository": "github:deemsk/uno",
+  "main": "app.js",
+  "scripts": {
+    "test": "eslint ./src/**/*.js",
+    "start": "nodemon ./src/app.js"
+  },
+  "keywords": [
+    "uno",
+    "game",
+    "cards"
+  ],
+  "author": "Dmitriy Bogolyubov",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.3.0",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-plugin-import": "^1.13.0",
+    "eslint-plugin-jsx-a11y": "^2.1.0",
+    "eslint-plugin-react": "^6.0.0",
+    "tape": "^4.6.0"
+  },
+  "dependencies": {
+    "redux": "^3.5.2"
+  }
+}
